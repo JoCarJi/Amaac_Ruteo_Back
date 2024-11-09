@@ -1,0 +1,35 @@
+# Ignora el entorno virtual (cambia el nombre si tu entorno virtual tiene otro nombre)
+venv/
+.env/
+
+# Archivos de configuración de entorno de Python
+*.pyc
+__pycache__/
+instance/
+
+# Archivos de entorno y dependencias
+*.env
+*.venv
+*.env.bak
+
+# Archivos de configuración específicos del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos de log
+*.log
+
+# Archivos de bases de datos locales (si usas SQLite o similar)
+*.sqlite3
+*.db
+
+# Archivos generados por IDEs (VSCode, PyCharm, etc.)
+.vscode/
+.idea/
+
+# Dependencias instaladas en el entorno virtual
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Ignora el archivo .env
+.env
